@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Owen Bench's Hub</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <div id="wrapper">
+    <header>
+        <br><h1>Owen Bench's Hub<sub id="subheading">Portolio & Commission Site</sub></h1><br>
+    </header>
+    <div id="wrapperFloat">
+        <img src="Images/me2022.jpg" height="294" width="234" alt="me2022">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="commissions.html">Commissions</a></li>
+                <li><a href="orders.html">Orders</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h2>Orders Page</h2>
+        <h3>Welcome!</h3>
+        <p>Fill out this form about your commission and I'll get back to you right away!<br>
+            <em>Note: All fields marked with an * asterisk are required.</em></p>
+        <div class="order-box">
+        <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+            <label for="myFName">* First Name: </label>
+                <input type="text" name="myFName" id="myFName" required="required">
+            <label for="myLName">* Last Name: </label>
+                <input type="text" name="myLName" id="myLName" required="required">
+            <label for="emAddress">* E-Mail Address: </label>
+                <input type="email" name="emAddress" id="emAddress" required="required">
+            <label for="size">Commission Size: </label>
+                <select size="1" name="size" id="size">
+                    <option value="N/A">Select a Size</option>
+                    <option value="Small">Small/Easy</option>
+                    <option value="Medium">Medium/Moderate</option>
+                    <option value="Large">Large/Complex</option>
+                </select>
+            <label for="comDesc">* Commission Description: </label>
+                <textarea name="comDesc" id="comDesc" rows="5" cols="60"></textarea>
+            <em>By checking this box, you agree to only reuse content 
+                and products on/from this page with permission from Owen Bench, as well as
+                agree that any commission made is not for the intent of plagiarism or other
+                dishonest means that can be illegal or against any institutions rules.<br></em>
+            <input type="checkbox" value="yes" required="required">
+            <input type="submit">
+        </form>
+        </div>
+        <footer>
+            Copyright &copy; 2022 <i>Owen Bench's Hub</i><br>
+            Contacts:<ul>
+                <li>Email: 
+                    <a href="mailto:owen.bench01@gmail.com">
+                        owen.bench01@gmail.com
+                    </a>
+                </li>
+                <li>
+                    Phone: (801)-745-7811
+                </li>
+            </ul>
+            <img src="Images/nuameslogo.png" height="40" width="120" alt="nuamesLogo"><ul>
+                <li>Email:
+                    <a href="mailto:owenbench@mail.weber.edu">
+                        owenbench@mail.weber.edu
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </main>
+    </div>
+</body>
+</html>

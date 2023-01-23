@@ -1,0 +1,142 @@
+* { 
+    box-sizing: border-box;
+}
+#wrapper {
+    height: auto;
+    min-width: 800px;
+    margin: 2em 3em;
+}
+#wrapperFloat {
+    float: left;
+    width: 240px;
+    height: 100%;
+    background-color: #432769;
+}
+body {
+    background-image: url(Images/mywallpaper.png);
+}
+header {
+    background-color: #b063c2;
+    background-image: radial-gradient(#b063c2, #432769);
+    margin: 1em 0;
+    line-height: 75%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2.5px solid #330033;
+    font-family: Palatino, Georgia, serif;
+}
+#subheading {
+    font-size: 60%;
+}
+nav {
+    background-color: #432769;
+    text-align: center;
+    font-family: Verdana, Tahoma, Helvetica, sans-serif;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.75em;
+}
+footer {
+    padding: 2em 0.5em;
+}
+
+nav a {
+    color: #FFFFFF;
+    display: block;
+    padding: 10px 10px;
+    border: 2px solid #330033;
+    background-color: #b063c2;
+    transition: background-color 2s linear;
+}
+nav a:hover {
+    background-color:#432769;
+}
+main {
+    background-color: #f2d8f7;
+    border: 2.5px solid #330033;
+    margin-left: 270px;
+    padding: 5px 25px 20px;
+}
+h2 {
+    font-size:175%;
+    text-align:center;
+    font-weight:bold;
+}
+dt {
+    text-decoration:underline;
+}
+table {
+    border: 2.5px solid #330033;
+    width: 33%;
+    background-color: #FFFAFF;
+}
+td, th {
+    padding: 5px;
+    text-align:right;
+    border: 1px solid #660066;
+    background-color: transparent;
+}
+th {
+    text-align: center;
+}
+.comm-details {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#comm-box {
+    width: 33%;
+    height: auto;
+    min-height: 200px;
+    margin: 4px;
+    overflow-wrap: break-word;
+    border: 2px solid #660066;
+}
+#comm-boxOne {
+    width: 33%;
+    height: auto;
+    min-height: 200px;
+    margin: 4px;
+    overflow-wrap: break-word;
+    border: 2px solid #660066;
+}
+#comm-boxTwo {
+    width: 33%;
+    height: auto;
+    min-height: 200px;
+    margin: 4px;
+    overflow-wrap: break-word;
+    border: 2px solid #660066;
+}
+.comm-details h3 {
+    text-align: center;
+}
+.comm-details p {
+    padding: 0 10px;
+}
+
+.order-box {
+    margin: 4px;
+    padding: 20px;
+    border: 2px solid #330033;
+    background-color: #FFFAFF;
+    width: 66%;
+}
+label {
+    float: left;
+    display: block;
+    width: 140px;
+    padding-right: 5px;
+}
+input, textarea, select {
+    display: block;
+    margin-bottom: 20px;
+}
+#textwrap {
+    overflow-wrap: break-word;
+}
